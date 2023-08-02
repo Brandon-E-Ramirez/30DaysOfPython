@@ -50,6 +50,7 @@ print(nin)
 #     nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 
 
+# hi
 #     Check if 'Estonia' is a nordic country
 
 #     Check if 'Iceland' is a nordic country
