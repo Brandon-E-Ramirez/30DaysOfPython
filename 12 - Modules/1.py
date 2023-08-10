@@ -70,3 +70,14 @@ def generate_id(size, count):
     return lists
 
 print(generate_id(idSize, idsGenerated))
+
+#Write a function named rgb_color_gen. It will generate rgb colors (3 values ranging from 0 to 255 each).
+
+def rgb_color_gen():
+  rgb_code = [[],[],[]]
+  limit = 256
+  for x in range(0,3):
+    rgb_code[x].append((random.randint(0,limit)))
+  return rgb_code
+
+print(f"Randomly generated rgb code: {rgb_color_gen()}")
