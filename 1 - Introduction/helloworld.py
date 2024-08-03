@@ -41,7 +41,7 @@ Exercise: Level 1
 #!Code starts here
 #*Highlighted info
 #?Questions
-#TODO Thingss that need to be done
+#TODO Things that need to be done
 
 #* python --version
 print(3 * 4)
@@ -94,10 +94,12 @@ bool = True
     *Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
 """
-list = [1, 2, 3, 4, 5, 2, 6, 7] #can grown, shrink. Ordered list
-tuple = (0,1,2,3,4,5,3,6,7,8,9) #immutable, ordered 
+list = [1, 2, 3, 4, 5, 2, 6, 7,0] #can grown, shrink. Ordered list
+tuple = (0,1,2,3,4,5,3,6,7,8,9,0) #immutable, ordered 
 
-set = {"apple", "banana", "cherry", True, 1, 2}#duplicates ignored
+set = {"apple", "banana", "cherry", True, 1, 2}#duplicates ignoreda
+print(list)
+print(tuple)
 print(set)
 
 #*Dictionary in Python
