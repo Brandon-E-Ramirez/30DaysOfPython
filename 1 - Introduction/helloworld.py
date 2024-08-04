@@ -95,9 +95,11 @@ bool = True
 
 """
 list = [1, 2, 3, 4, 5, 2, 6, 7,0] #can grown, shrink. Ordered list
-tuple = (0,1,2,3,4,5,3,6,7,8,9,0) #immutable, ordered 
+tuple = (1,2,3,4,5,3,6,7,8,9,0) #immutable, ordered 
 
 set = {"apple", "banana", "cherry", True, 1, 2}#duplicates ignoreda
+
+list.sort()
 print(list)
 print(tuple)
 print(set)

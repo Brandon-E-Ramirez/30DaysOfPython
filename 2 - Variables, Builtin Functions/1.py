@@ -13,6 +13,8 @@ def fib(n):
     temp = a
     a = b
     b = temp+b
+
+    
 fib(4)
 
 """
