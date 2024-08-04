@@ -1,0 +1,13 @@
+https://github.com/Asabeneh/30-Days-Of-Python/blob/master/20_Day_Python_package_manager/20_python_package_manager.md
+
+terminal commands for pip:
+
+
+pip --version: pip version
+pip list: see all installed packages
+pip uninstall <packagename>: uninstall
+pip freeze: see all installed packages with version
+pip install --upgrade <packagename>: upgrade
+pip install <packagename>: install
+pip show <packagename>: show info about package
+pip show <packagename> --verbose: show detailed info about package
