@@ -1,10 +1,10 @@
 # #https://github.com/Asabeneh/30-Days-Of-Python/blob/master/04_Day_Strings/04_strings.md
-# # Strings only
-# first_name = 'Asabeneh'
-# last_name = 'Yetayeh'
-# language = 'Python'
-# formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
-# print(formated_string)
+# Strings only
+first_name = 'Asabeneh'
+last_name = 'Yetayeh'
+language = 'Python'
+formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
+print(formated_string)
 
 # # Strings  and numbers
 # radius = 10
@@ -16,8 +16,8 @@
 # formated_string = 'The following are python libraries:%s' % (python_libraries)
 # print(formated_string) # "The following are python libraries:['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']"
 
-# greeting = 'Hello, World!'
-# print(greeting[::-1]) # !dlroW ,olleHa
+greeting = 'Hello, World!'
+print(greeting[::-1]) # !dlroW ,olleH
 
 
 #  Exercises - Day 4
@@ -35,9 +35,9 @@ print(company.upper());
 #     Change all the characters to lowercase letters using lower() method.
 print(company.lower())
 #     Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
-print(company.capitalize());
-print(company.title());
-print(company.swapcase())
+print('this is a sentence for you to read'.capitalize());
+print(company.title()); #capitalize first letter of each word
+print(company.swapcase()) #make letter case letter uppercase and vice versa
 #     Cut(slice) out the first word of Coding For All string.
 print(company[7:])
 #     Check if Coding For All string contains a word Coding using the method index, find or other methods.

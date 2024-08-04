@@ -49,7 +49,7 @@ print(dct_len) #9 items
 print(student['first_name']) #prints value of key 'first_name'
 print(student.get('first_name')) #prints value of key 'first_name'
 print(student['skills'][0]) #prints first element in 'skills' key array
-print(student['gpa']) #'Error'
+#print(student['gpa']) #'Error'
 print(student.get('gpa')) #'None'
 
 #Get the value of skills and check the data type, it should be a list
@@ -59,7 +59,6 @@ print(type(student['skills'][n]))
 
 # syntax to add key/value pair
 worker = {'fname':'John', 'lname':'Doe', 'experience':'2yrs', 'salary':'10$'}
-dct['dept'] = 'r&d'	#creates a new key/value pair entry into dictionary
 
 #Modify the skills values by adding one or two skills
 student['skills'].append('HTML')

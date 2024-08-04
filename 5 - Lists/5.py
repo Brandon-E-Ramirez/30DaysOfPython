@@ -8,7 +8,7 @@ list = [2,4,8,16,32,64]
 print(len(list))
 # Get the first item, the middle item and the last item of the list
 print(list[0])
-print(list[len(list) - 1])
+print(list[len(list) - 1]) #prints last element in array, since first index is 0
 # Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
 mixed_data_types = ["Brandon", 22, "5'6in", "single", "425 Beech Street"]
 # Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.

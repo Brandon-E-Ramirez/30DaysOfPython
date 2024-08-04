@@ -89,7 +89,7 @@ arr = ["Texas","Alabama", "New York", "Utah", "Washington"]
 print_list(arr);
     #Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).
 def reverse_list(arr):
-        for i in range(len(arr) - 1, -1, -1):
+        for i in range(len(arr) - 1, -1, -1): # end of the list, non-inclusive (0), step size (minus one)
             print(arr[i], end=" ");
 
 reverse_list(arr);

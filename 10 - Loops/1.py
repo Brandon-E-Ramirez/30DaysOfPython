@@ -66,7 +66,7 @@ character = "# ";
 lim = 8;
 for u in range(0,lim):
 	for v in range(0,lim):
-		print(f"{character}",end="")
+		print(f"{character}",end="") #no newline character ("\n") should be added at the end of the printed output
 	print("\r");
 
 """
